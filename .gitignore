@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment Variables (IMPORTANT - kabhi push mat karo!)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Database
+*.sqlite
+*.db
+*.sql
+
+# Build Output
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.npm/
+.yarn/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.swp
+
+# Uploads / Media (agar local files hain)
+uploads/
+temp/
+tmp/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Python (agar use kar rahe ho)
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# JWT / Secret keys
+*.pem
+*.key
+*.cert
